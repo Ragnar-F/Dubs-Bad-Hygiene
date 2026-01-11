@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+
+  <!-- EN: Things: -->
+  <dbh.Things>Dinge:</dbh.Things>
+  <!-- EN: Terrain: -->
+  <dbh.Terrain>Boden:</dbh.Terrain>
+  <!-- EN: Environment: -->
+  <dbh.Environment>Umfeld:</dbh.Environment>
+  <!-- EN: Pollution -->
+  <dbh.Pollution>Verseuchung</dbh.Pollution>
+  <!-- EN: Sewage contamination -->
+  <dbh.Sewagecontamination>Abwasser-Kontamination</dbh.Sewagecontamination>
+
   <!-- EN: Remove pipes -->
   <DesignatorRemovePlumbing>Rohrleitung entfernen</DesignatorRemovePlumbing>
   <!-- EN: Designate sections of a pipe type for deconstruction. -->
@@ -44,7 +56,8 @@
   <DBHFalloutWarning>Kontamination durch giftigen Fallout</DBHFalloutWarning>
   <!-- EN: After 2 days of toxic fallout the buildup will contaminate any water storage tanks connected to water wells.\n\nPrepare by creating a reserve of water and then using a valve to disconnect the wells to protect the water from contamination before it is too late.\n\nYou can also use a deep well to access uncontaminated water, or install a water treatment system which will eliminate all contamination from water reserves. -->
   <DBHFalloutWarningEx>In 2 Tagen wird der giftige Fallout alle Wasserspeicher, die mit Brunnen verbunden sind, kontaminieren.\n\nLege einen Wasservorrat an und trenne die Brunnen anschließend vom Versorgungsnetz (z. B. mittels Ventil), um das Wasser vor Kontamination zu schützen, bevor es zu spät ist.\n\nAlternativ kannst du einen tiefen Brunnen benutzen, um unverseuchtes Wasser zu beziehen, oder eine Wasserfilteranlage errichten, die sämtliche Verunreinigungen in den Wasservorräten beseitigt.</DBHFalloutWarningEx>
-
+  <!-- EN: In a vacuum -->
+  <DBHVacuum>Im Vakuum</DBHVacuum>
   <!-- EN: Low cooling capacity. You can increase the power of outdoor units. -->
   <LowCoolingCap>Geringe Kühlleistung. Du kannst die Leistung der Außengeräte erhöhen.</LowCoolingCap>
   <!-- EN: Access restricted -->
@@ -63,13 +76,16 @@
   <LowWaterTempDesc>Die Wassertemperatur in diesem Speicher ist zu niedrig; Kolonisten, die warmes Wasser erwarten, könnten sich daran stören.\n\nSchalte deine Thermen ein, erhöhe die Heizkapazität oder schließe einen weiteren Warmwasserspeicher an.</LowWaterTempDesc>
   <!-- EN: Must be placed over a cell with ground water. -->
   <WellNeedsWater>Muss über einer Zelle mit Grundwasser platziert werden.</WellNeedsWater>
+  <!-- EN: Must be placed over a cell with subsurface ice deposits -->
+  <WellNeedsIce>Muss auf eine Zelle mit unterirdischem Eis platziert werden.</WellNeedsIce>
   <!-- EN: The fixture must be inside a room to restrict it. -->
   <AssigningRequiresRoom>Die Sanitäranlage muss zum Beschränken in einem Raum sein.</AssigningRequiresRoom>
   <!-- EN: Requires water storage tower -->
   <NoWaterTowers>Benötigt einen Wasserturm</NoWaterTowers>
   <!-- EN: Assigning requires bladder need, but {0} doesn't have bladder need. -->
   <AssigningRequiresBladderNeed>Zuweisung benötigt Stuhl-/Harndrang-Bedürfnis, aber {0} hat keins.</AssigningRequiresBladderNeed>
-
+  <!-- EN: Equipment frozen: {0} -->
+  <DBHExtractorFrozen>Equipment vereist: {0}</DBHExtractorFrozen>
   <!-- EN: No composting material -->
   <NoCompostingMaterial>Kein kompostierbares Material</NoCompostingMaterial>
   <!-- EN: No water capacity -->
@@ -285,6 +301,11 @@
   <!-- EN: Overlaps with {0} wells -->
   <OverlapsWells>Überschneidet sich mit {0} Brunnen</OverlapsWells>
 
+  <!-- EN: Transfer Tank -->
+  <TransferStorageTank>Wasser umleiten</TransferStorageTank>
+  <!-- EN: Transfer the contents of this tank to other available tanks -->
+  <TransferStorageTankDesc>Leite das Wasser dieses Speichers in andere verfügbare Wasserspeicher um.</TransferStorageTankDesc>
+
   <!-- EN: Sewage {0} -->
   <dbh.SewageReadout>Abwasser {0}</dbh.SewageReadout>
   <!-- EN: Drain -->
@@ -338,6 +359,8 @@
   <dbh.DrinksToPack>Getränke einpacken: Suche ab {0}, max. {1}</dbh.DrinksToPack>
   <!-- EN: Restart -->
   <dbh.restartconfirm>Neu starten</dbh.restartconfirm>
+  <!-- EN: Later -->
+  <dbh.restartlater>Später</dbh.restartlater>
   <!-- EN: Prioritize indoor cleaning -->
   <dbh.PriorityIndoorCleaning>Vorrangig in Räumen saubermachen</dbh.PriorityIndoorCleaning>
   <!-- EN: Enables a higher priority cleaning job to clean indoors first -->

@@ -66,6 +66,11 @@
   <!-- EN: Comfortable, self cleaning, unblockable, super efficient smart toilet. Provides the optimum multi-functional experience with automatic cleansing and deodorization.\n7L per use -->
   <ToiletAdvStuff.description>Bequeme, selbstreinigende und hocheffiziente Sanitäranlage zur Entsorgung von menschlichem Urin und Fäkalien. Bietet ein optimales, multifunktionales Erlebnis mit automatischer Reinigung und Geruchsbeseitigung.\n7 Liter pro Nutzung</ToiletAdvStuff.description>
 
+  <!-- EN: vacuum toilet -->
+  <ToiletSpacer.label>Vakuumtoilette</ToiletSpacer.label>
+  <!-- EN: Vacuum toilet that doesn't require water and jettisons all waste into space via sewage dump ports. -->
+  <ToiletSpacer.description>Eine wasserlose Toilette, die menschliche Exkremente per Unterdruck sammelt und über Außenports ins All schleudert.</ToiletSpacer.description>
+
   <!-- EN: Bath Mat -->
   <BathMat.label>Badematte</BathMat.label>
   <!-- EN: A small mat used next to a bathtub to absorb water. -->
