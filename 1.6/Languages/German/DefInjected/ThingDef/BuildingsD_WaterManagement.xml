@@ -32,7 +32,7 @@
   <WindPump.description>Pumpt Wasser von Brunnen zu Wassertürmen. Pumpleistung: 3000 L/Tag.</WindPump.description>
 
   <!-- EN: electric pump -->
-  <ElectricPump.label>elektr. Pumpe</ElectricPump.label>
+  <ElectricPump.label>Elektropumpe</ElectricPump.label>
   <!-- EN: Pumps water from wells to water towers. Pumping capacity: 1500 L/day. -->
   <ElectricPump.description>Pumpt Wasser von Brunnen zu Wassertürmen. Pumpleistung: 1500 L/Tag.</ElectricPump.description>
 
@@ -62,7 +62,7 @@
   <WaterTreatment.description>Macht das Wasser zu 99,99 Prozent keimfrei! Filtert vorhandenes Wasser in Wassertürmen und jegliches von Sanitäranlagen genutztes Wasser und beseitigt so das Risiko von Krankheiten.</WaterTreatment.description>
 
   <!-- EN: sewage dump port -->
-  <SewageDumpPort.label>Abwasserausstoßport</SewageDumpPort.label>
+  <SewageDumpPort.label>Abwasserexpulsor</SewageDumpPort.label>
   <!-- EN: A vacuum-sealed sewage expulsion port for use in spacecraft. When connected to a vacuum toilet, it safely ejects waste into the void of space.\nMust be mounted on an exterior wall of a ship. -->
   <SewageDumpPort.description>Eine vakuumdichte Vorrichtung für Raumschiffe, die in Verbindung mit einer Vakuumtoilette menschliche Exkremente sicher ins All befördern kann.\n\nMuss an einer Außenwand des Schiffes angebracht werden.</SewageDumpPort.description>
 
